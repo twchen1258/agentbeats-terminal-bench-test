@@ -63,11 +63,11 @@ agentbeats deploy
 
 **Note**: If this is your first time running `agentbeats deploy`, you may see an error message prompting you to install frontend dependencies:
 ```
-Error: Frontend dependencies not installed. Run `agentbeats install_frontend` to install them.
+Error: Frontend dependencies not installed for webapp-v2. Run `agentbeats install_frontend --webapp_version webapp-v2` to install them.
 ```
 If you see this message, run:
 ```bash
-agentbeats install_frontend
+agentbeats install_frontend --webapp_version webapp-v2
 ```
 Then run `agentbeats deploy` again.
 
